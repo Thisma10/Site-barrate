@@ -1,4 +1,9 @@
 
+body {
+    font-family: helvetica, arial, sans-serif;
+    background-color: #2e2e31;
+  }
+
 /* logo */
 
 .logo {
@@ -11,6 +16,17 @@
 }
 
 /* head */
+
+header {
+    content: '';
+    background: url('Picture/moon-38.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 102%;
+    height: 50em;
+    opacity: 0.8;
+}
 
 .space {
     padding-left: 3%;
@@ -49,11 +65,6 @@
     }
   }
   
-  body {
-    font-family: helvetica, arial, sans-serif;
-    background-color: #2e2e31;
-  }
-  
   .rectangle {
     color: #fffbf1;
     text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
@@ -63,7 +74,7 @@
     letter-spacing: -3px;
     margin: 0;
     position: absolute;
-    top: 42%;
+    top: 80%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
@@ -92,20 +103,10 @@
     box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
   }
 
-/* Live */
-
-.live {
-    content: '';
-    background: url('Picture/moon-38.gif') no-repeat center center/cover;
-    position: absolute;
-    width: 102%;
-    height: 50em;
-    opacity: 0.8;
-    
-}
-
 /* picture */
 
 .picture {
-    width: 33%;
+    width: 50%;
+    margin-top: 180%;
+    margin-left: 28%;
 }
