@@ -1,5 +1,8 @@
 
-
+*,
+body{
+    width: 100%;
+}
 
 /* logo */
 
@@ -27,20 +30,20 @@
 
 .normalwrite {
     font-weight: lighter;
-    font-size: 1.3em;
+    font-size: 280%;
     color: white;
     text-decoration: none;
-    margin:1em;
+    margin: 1%;
     z-index: 2;
 }
 
 .hover:hover {
-    font-weight: bolder;
-    color: yellow;
+    font-size: 250%;
+    color: white;
     text-decoration: none;
 }
 
-/* test */
+/* rectangle */
 
 @keyframes tipsy {
     0% {
@@ -100,8 +103,14 @@
     content: '';
     background: url('Picture/moon-38.gif') no-repeat center center/cover;
     position: absolute;
-    width: 100%;
+    width: 102%;
     height: 50em;
     opacity: 0.8;
     
+}
+
+/* picture */
+
+.picture {
+    width: 33%;
 }
