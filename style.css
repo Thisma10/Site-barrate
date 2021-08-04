@@ -140,9 +140,14 @@ h2 {
   color: black;
 }
 
-ul {
+ul,
+.bold {
   text-decoration: none;
   font-weight: bolder;
+}
+
+li {
+  font-weight: lighter;
 }
 
 .marge {
