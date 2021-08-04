@@ -15,6 +15,10 @@ body {
     z-index: 2;
 }
 
+.logohover:hover {
+  width: 90%;
+}
+
 /* head */
 
 header {
