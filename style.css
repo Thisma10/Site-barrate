@@ -22,7 +22,7 @@ header {
     background: url('Picture/moon-38.gif');
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
+    /*position: absolute;*/
     width: 102%;
     height: 50em;
     opacity: 0.8;
@@ -74,7 +74,7 @@ header {
     letter-spacing: -3px;
     margin: 0;
     position: absolute;
-    top: 80%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
@@ -106,15 +106,41 @@ header {
 /* picture */
 
 .picture {
-  width: 50%;/*
-  margin-top: 180%;
-  margin-left: 28%;*/
+  width: 100%;
+  
+}
+
+.picturehover:hover {
+    width: 105%;
 }
 
 /* texte */
 
 .tx {
-  /*margin-top: 180%;
-  margin-left: 28%;*/
+  font-size: 175%;
   color: white;
+  display: grid;
+  align-items:center;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.txul {
+  display: grid;
+  align-items:center;
+  font-size: 175%;
+  color: white;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.marge {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
