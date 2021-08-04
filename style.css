@@ -137,7 +137,7 @@ h2 {
   display: grid;
   align-items:center;
   font-size: 175%;
-  color: white;
+  color: black;
 }
 
 .bold {
@@ -147,6 +147,20 @@ h2 {
 .marge {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.cadre {
+  background-color: lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 105%;
+}
+
+/* footer */
+
+.video {
+  margin: 10%;
+  border: 2px black;
 }
 
 /* footer */
