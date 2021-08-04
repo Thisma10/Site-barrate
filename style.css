@@ -7,7 +7,7 @@ body {
 /* logo */
 
 .logo {
-    width: 80px;
+    width: 150%;
     position: relative;
     display: flex;
     border-radius: 150px;
@@ -16,7 +16,9 @@ body {
 }
 
 .logohover:hover {
-  width: 90%;
+  width: 100%;
+  padding-left: 18%;
+  padding-top: 18%;
 }
 
 /* head */
@@ -45,15 +47,15 @@ header {
 
 .normalwrite {
     font-weight: lighter;
-    font-size: 280%;
+    font-size: 230%;
     color: white;
     text-decoration: none;
-    margin: 1%;
+    margin: 2%;
     z-index: 2;
 }
 
 .hover:hover {
-    font-size: 250%;
+    font-size: 200%;
     color: white;
     text-decoration: none;
 }
@@ -72,13 +74,13 @@ header {
   .rectangle {
     color: #fffbf1;
     text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
-    font-size: 60px;
+    font-size: 180%;
     font-weight: bold;
     text-decoration: none;
     letter-spacing: -3px;
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 90%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
@@ -92,7 +94,7 @@ header {
     width: 110%;
     top: 50%;
     display: block;
-    border: 10px solid lightgray;
+    border: 5px solid lightgray;
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
     animation: 10s infinite alternate ease-in-out tipsy;
   }
@@ -121,7 +123,7 @@ header {
 /* texte */
 
 .tx {
-  font-size: 175%;
+  font-size: 100%;
   color: white;
   display: grid;
   align-items:center;
@@ -136,7 +138,7 @@ h2 {
 .txul {
   display: grid;
   align-items:center;
-  font-size: 175%;
+  font-size: 100%;
   color: black;
 }
 
@@ -173,7 +175,7 @@ li {
 
 footer {
   color: white;
-  font-size: 175%;
+  font-size: 100%;
   width: 102%;
   display: flex;
   justify-content: space-around;
