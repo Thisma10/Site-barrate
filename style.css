@@ -80,7 +80,7 @@ header {
     letter-spacing: -3px;
     margin: 0;
     position: absolute;
-    top: 90%;
+    top: 22em;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
