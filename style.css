@@ -112,12 +112,13 @@ header {
 /* picture */
 
 .picture {
-  width: 100%;
-  
+  max-width: 100%;
+  min-width: 60%;
 }
 
 .picturehover:hover {
-    width: 105%;
+  max-width: 105%;
+  min-width: 65%;
 }
 
 /* texte */
