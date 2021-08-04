@@ -106,7 +106,15 @@ header {
 /* picture */
 
 .picture {
-    width: 50%;
-    margin-top: 180%;
-    margin-left: 28%;
+  width: 50%;/*
+  margin-top: 180%;
+  margin-left: 28%;*/
+}
+
+/* texte */
+
+.tx {
+  /*margin-top: 180%;
+  margin-left: 28%;*/
+  color: white;
 }
