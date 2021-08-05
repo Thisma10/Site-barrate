@@ -109,16 +109,6 @@ header {
     box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
   }
 
-/* bandeau */
-
-/* animation marquee like: animation + attr data- */
-
-
-
-
-
-
-
 /* bande photos */
 
 article { 
@@ -158,31 +148,32 @@ img {
 
 @keyframes marqueelike {
   0%, 100% {
-    margin-left:0;
+    margin-left:50%;
   }
   99.99% {
-    margin-left:-100%;
+    margin-left:-50%;
   }
 }
 
 .center {
   text-align:center;
+  color: white;
 }
-
+/*
 section {
-  width:300px;
+  width:100%;
   margin:auto;
   overflow:hidden;
   box-shadow:0 0 3px,inset 0 0 50px;
-}
+}*/
 
 section div {
   text-align:justify;
   padding : 5px;
-  text-shadow: 300px 0 white;
+  /*text-shadow: 300px 0 white;*/
   display:inline-block;
   width:290px;
-  animation: marqueelike 4s infinite;
+  animation: marqueelike 10s infinite;
 }
 
 /* picture */
