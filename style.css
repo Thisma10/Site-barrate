@@ -148,7 +148,16 @@ img {
 
 @keyframes marqueelike {
   0%, 100% {
-    margin-left:50%;
+    margin-left:100%;
+  }
+  99.99% {
+    margin-left:-100%;
+  }
+}
+
+@keyframes marqueelike2 {
+  0%, 100% {
+    margin-left:150%;
   }
   99.99% {
     margin-left:-50%;
@@ -157,23 +166,22 @@ img {
 
 .center {
   text-align:center;
-  color: white;
-}
-/*
-section {
-  width:100%;
-  margin:auto;
-  overflow:hidden;
-  box-shadow:0 0 3px,inset 0 0 50px;
-}*/
-
-section div {
-  text-align:justify;
+  color: black;
+  /*text-align:justify;*/
   padding : 5px;
-  /*text-shadow: 300px 0 white;*/
-  display:inline-block;
   width:290px;
-  animation: marqueelike 10s infinite;
+}
+
+.bandeau {
+  margin: 1em;
+}
+
+.anim {
+  animation: marqueelike 15s infinite;
+}
+
+.anim2 {
+  animation: marqueelike2 15s infinite;
 }
 
 /* picture */
