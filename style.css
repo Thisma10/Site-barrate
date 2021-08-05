@@ -109,6 +109,82 @@ header {
     box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
   }
 
+/* bandeau */
+
+/* animation marquee like: animation + attr data- */
+
+
+
+
+
+
+
+/* bande photos */
+
+article { 
+  padding:0;
+  display:block;
+  width:50px;
+  height:200px;
+  float:left;
+}
+
+figure {
+  margin:0;
+  padding:0;
+  display:block;
+  animation: marqueeliketop 10s infinite linear;
+}
+
+figure:after {
+  content:  url(http://lorempixel.com/50/50/nature/1)url(http://lorempixel.com/50/50/food/1)url(http://lorempixel.com/50/50/sports/1) url(http://lorempixel.com/50/50/city/1) ;
+  line-height:0;
+  display:block;  }
+
+img {
+  display:block;
+}
+
+@keyframes marqueeliketop {
+  0%, 100% {
+    margin:0;
+  }
+  99.99% {
+    margin-top:-500px;
+  }
+}
+
+/* bande infos */
+
+@keyframes marqueelike {
+  0%, 100% {
+    margin-left:0;
+  }
+  99.99% {
+    margin-left:-100%;
+  }
+}
+
+.center {
+  text-align:center;
+}
+
+section {
+  width:300px;
+  margin:auto;
+  overflow:hidden;
+  box-shadow:0 0 3px,inset 0 0 50px;
+}
+
+section div {
+  text-align:justify;
+  padding : 5px;
+  text-shadow: 300px 0 white;
+  display:inline-block;
+  width:290px;
+  animation: marqueelike 4s infinite;
+}
+
 /* picture */
 
 .picture {
@@ -122,6 +198,20 @@ header {
 }
 
 /* texte */
+
+
+p , article{
+  display:inline-block;
+  margin:3em auto;
+  padding:5px 0;
+  position:relative;
+  overflow:hidden;
+  table-layout:fixed;
+}
+
+article {
+  border: double white;
+}
 
 .tx {
   font-size: 100%;
@@ -163,13 +253,6 @@ li {
   padding-top: 5%;
   padding-bottom: 5%;
   width: 105%;
-}
-
-/* footer */
-
-.video {
-  margin: 10%;
-  border: 2px black;
 }
 
 /* footer */
