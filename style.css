@@ -151,27 +151,27 @@ img {
 
 @keyframes marqueelike {
   0%, 100% {
-    margin-left:100%;
+    margin-left:110%;
   }
   99.99% {
-    margin-left:-100%;
+    margin-left:-110%;
   }
 }
-
+/*
 @keyframes marqueelike2 {
   0%, 100% {
-    margin-left:150%;
+    margin-left:110%;
   }
   99.99% {
-    margin-left:-50%;
+    margin-left:-110%;
   }
-}
+}*/
 
 .center {
   text-align:center;
   color: black;
   /*text-align:justify;*/
-  padding : 5px;
+  padding: 5px;
   width:290px;
 }
 
@@ -180,12 +180,12 @@ img {
 }
 
 .anim {
-  animation: marqueelike 15s infinite;
+  animation: marqueelike 8s infinite ease-in-out;
 }
-
+/*
 .anim2 {
-  animation: marqueelike2 15s infinite;
-}
+  animation: marqueelike2 8s infinite ease-in-out;
+}*/
 
 /* picture */
 
