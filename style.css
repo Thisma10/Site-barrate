@@ -29,6 +29,10 @@ header {
 
 .videochevaux {
   width: 200% ; 
+}
+
+.test {
+  position: absolute;
   top: 0;
 }
 
