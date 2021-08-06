@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="LacourdeBarrate" content="Site officiel de l'association de la web-Série Médiévale Humoristique : La cour de Barrate. Plongez au coeur du moyen-âge et suivez les aventures burlesques de Paulin, Baldric, Loudier, Karadec et de leurs compagnons... "/>
     <title>La cour de Barrate (Cutullic Mathis)</title>
     <meta name="keywords" content="chevalier, association, la cour de barrate, web-série, Médiévale, Youtube"/>
     <meta name="author" content="Cutullic Mathis"/>
     
     <!-- link -->
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script rel="stylesheet" href="main.js"></script>
+    
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" >
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css.map" >
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media queries.css">
-    <link rel="stylesheet" href="main.js">
+    
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+
+    
+    
 
 </head>
 
@@ -26,7 +33,7 @@
             la video ne peut pas s'afficher
         </video>
 
-        <!-- logo bandeau transparent -->
+         <!--logo bandeau transparent -->
         <div class="container test">
             <nav class="row live">
                 <div class="col-sm-2 col-2 space">
@@ -51,32 +58,32 @@
     </header>
 
     <main>
-                    
-            <div class="row bandeau">
 
-                <section>
-                    <div class="card center anim">
-                        Et voici un texte qui est cloner uniquement via CSS pour un defilement continue.Il n'y a pas d'attribut, pas de span en plus ... pas une ombre d'element ou texte en plus dans le HTML.
-                    <br/>
-                        Survolez moi.
-                    <br/>
-                        Le font-size ne m'indispose pas ! et vous ?
-                    <br/>
-                        En multipliant les ombres decallés et en augmentant le deplacement lateral en consequences, on peut faire defilé l'ensemble du texte sur une seule ligne. 
-                    </div>
-                    <div class="card center anim">
-                        Et voici un texte qui est cloner uniquement via CSS pour un defilement continue.Il n'y a pas d'attribut, pas de span en plus ... pas une ombre d'element ou texte en plus dans le HTML.
-                    <br/>
-                        Survolez moi.
-                    <br/>
-                        Le font-size ne m'indispose pas ! et vous ?
-                    <br/>
-                        En multipliant les ombres decallés et en augmentant le deplacement lateral en consequences, on peut faire defilé l'ensemble du texte sur une seule ligne. 
-                    </div>
-                </section>
-                
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Picture/banière sd.PNG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Picture/logo.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Picture/banière sd.PNG" class="d-block w-100" alt="...">
+              </div>
             </div>
-        
+            <!-- carousel nav -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" >
+                
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" >
+                
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
         <!-- photo puis présentation --> 
 
         <div class="container-fluid">
@@ -186,11 +193,13 @@
         <!-- Lien vidéo (voir autre site la cour de babrrate) --> 
 
     </main>
-
+    
     <footer>
 
         Footer
 
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>
