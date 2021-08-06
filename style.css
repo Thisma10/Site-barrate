@@ -9,7 +9,7 @@ body {
     line-height: var(--bs-body-line-height);
     text-align: var(--bs-body-text-align);
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent
   }
   
 :root {
@@ -30,6 +30,11 @@ body {
     z-index: 2;
 }
 
+.logofooter {
+  width: 80%;
+  border-radius: 150px;
+}
+
 .logohover:hover {
   width: 100%;
   padding-left: 18%;
@@ -46,7 +51,7 @@ header {
   width: 100% ; 
 }
 
-.test {
+.positionheader {
   position: absolute;
   top: 0;
 }
@@ -272,27 +277,13 @@ footer {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.border-top {
-  border-top: 1px solid #dee2e6!;
-}
+
 .d-flex {
   display: flex;
 }
-/*
-*, ::after, ::before {
-  box-sizing: border-box;
-}*/
 
 footer {
   display: block;
 }
 
-
-
-*, ::after, ::before {
-  box-sizing: border-box;
-}
-*, ::after, ::before {
-  box-sizing: border-box;
-}
 
