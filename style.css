@@ -1,4 +1,4 @@
-/*
+
 body {
     font-family: helvetica, arial, sans-serif;
     background-color: #2e2e31;
@@ -63,7 +63,7 @@ header {
 }
 
 /* rectangle */
-/*
+
 @keyframes tipsy {
     0% {
       transform: translateX(-50%) translateY(-50%) rotate(0deg);
@@ -108,14 +108,11 @@ header {
   
   .rectangle:after {
     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) lightgray lightgray;
-    /*box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+    /*box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);*/
   }
 
 /* bande photos */
 
-
-
-/*
 article { 
   padding:0;
   display:block;
@@ -168,7 +165,7 @@ img {
 
 /* texte */
 
-/*
+
 p , article{
   display:inline-block;
   margin:3em auto;
