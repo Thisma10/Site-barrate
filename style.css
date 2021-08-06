@@ -2,7 +2,22 @@
 body {
     font-family: helvetica, arial, sans-serif;
     background-color: #2e2e31;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
   }
+  
+:root {
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+}
 
 /* logo */
 
@@ -237,3 +252,47 @@ footer {
 .personnage {
   color: white;
 }
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.border-top {
+  border-top: 1px solid #dee2e6!;
+}
+.d-flex {
+  display: flex;
+}
+/*
+*, ::after, ::before {
+  box-sizing: border-box;
+}*/
+
+footer {
+  display: block;
+}
+
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
