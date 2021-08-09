@@ -195,7 +195,9 @@ img {
 
 /* bande infos */
 
-
+.card {
+  color: black;
+}
 
 /* picture */
 
