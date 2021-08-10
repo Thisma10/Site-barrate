@@ -125,14 +125,31 @@ li {
   background-color: lightgray;
 }
 
-.margintx {
-  margin-top: 10%;
-  margin-bottom: 10%;
+.margintx1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.paddingtx {
-  /*padding-top: 10%;*/
-  padding-bottom: 10%;
+.margintx2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.margintx3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.paddingtx1 {
+  padding-bottom: 5%;
+}
+
+.paddingtx2 {
+  padding-bottom: 2%;
+}
+
+.paddingtx3 {
+  padding-bottom: 5%;
 }
 
 .paddingcard {
@@ -146,15 +163,15 @@ li {
 }
 
 .paddingfirstpicture{
-  padding-bottom: 7%;
+  padding-bottom: 12%;
 }
 
 .paddingsecondpicture{
-  padding-bottom: 35%;
+  padding-bottom: 5%;
 }
 
 .paddingthirdpicture{
-  padding-bottom: 12%;
+  padding-bottom: 18%;
 }
 
 /* rectangle */
