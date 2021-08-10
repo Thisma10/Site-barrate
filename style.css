@@ -332,6 +332,14 @@ li {
   width: 105%;
 }
 
+/* histoire */
+
+.figure {
+  border-radius: 150px;
+  border: white;
+}
+
+
 /* footer */
 
 footer {
