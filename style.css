@@ -122,6 +122,7 @@ li {
 .center {
   text-align: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .margintx {
