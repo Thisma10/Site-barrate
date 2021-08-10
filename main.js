@@ -11,3 +11,8 @@ $(function(){
  });
 
 
+
+
+ $(function(){
+  $(".myPopover").popover();
+});

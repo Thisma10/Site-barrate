@@ -334,11 +334,18 @@ li {
 
 /* histoire */
 
-.figure {
+.portrait {
   border-radius: 150px;
   border: white;
 }
 
+.personnage {
+  color: white;
+}
+
+.btn {
+  margin: 5px;
+}
 
 /* footer */
 
@@ -354,10 +361,6 @@ footer {
   -webkit-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
   -moz-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
   box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
-}
-
-.personnage {
-  color: white;
 }
 
 .py-3 {

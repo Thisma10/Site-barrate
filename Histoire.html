@@ -16,13 +16,13 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
     
-    <script rel="stylesheet" href="main.js"></script>
-
+    <link rel="stylesheet" href="main.js">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media queries.css">
     
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+
 
 </head>
 
@@ -54,50 +54,56 @@
     <main>  
 
 
-        <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
-
-
-        <section class="container">
-            <div class="personnage">
+        <div class="container-fluid mt-3">
+            <h2>Popover via Data Attributes</h2>
+            <br><br><br>
+    
+            <button type="button" class="btn myPopover"
+                data-toggle="popover"
+                data-placement="bottom" 
                 
-                <p>
-                    <img src="Picture/Baldric2.png" class="d-block w-100 figure" alt="...">
-                    
-                    Baldric  :
-                    <br >
-                    Baldric Biniou de Montroi est le fils de Godefroy et Elisabeth Biniou de Montroi, seigneur d'un Castel et terre de Bretagne, frère de Ida et de Morvan . 
+                    title="Baldric Biniou de Montroi est le fils de Godefroy et Elisabeth Biniou de Montroi, seigneur d'un Castel et terre de Bretagne, frère de Ida et de Morvan . 
                     À l'âge de 7 ans, il est envoyé auprès du Seigneur Robert le Barbu pour devenir chevalier qui deviendra son parrain durant l'intégralité de son initiation qu'il considère comme un père. 
                     Lorsque la fille de Robert, Eleanor se fait tuer par un évêque pour des propos jugés hérétiques, celui-ci se lance dans une croisade vengeresse contre l'église, La Croisade Noire. Baldric rejoint les rangs des Chevaliers d'ébènes mené par son seigneur et guerroie durant deux longues années jusqu'à leur défaite contre le Baron Arnaud Jeunet, mandaté par l'église pour les anéantir. Durant cette bataille, Robert le Barbu meurt et son armée est décimée, quelques survivants réussiront à fuirent et c'est ainsi que Baldric cherchant refuge rejoindra le Castel d'Aubenaille et demandera asile auprès du seigneur des lieux, Sir Paulin dit le Fourbe, un vieil ami de son père. 
                     Baldric est un combattant hors pair qui a laissé peu de place aux sentiments durant de longues années mais ses camarades ont tendance à le faire changer. 
-                    Considéré dorénavant comme le bras droit de Paulin, il est respecté dans tout le royaume. 
-                </p>
-                <p>
-                    <img src="Picture/Sirpaulin2.png" class="d-block w-100 figure" alt="...">
-                    Paulin :
-                    <br >
-                    Sir Paulin dit le Fourbe est le fils de Gislebert et d'Adélaïde de Boleor. Mari de Dame Béatrice et père d'Aliénor.
+                    Considéré dorénavant comme le bras droit de Paulin, il est respecté dans tout le royaume."
 
-                    Paulin est un habile homme d'affaires qui ruse et évite les guerres en marchandant, ce qui lui vaut le surnom de Paulin dit le Fourbe car pour lui, tous les moyens sont bons pour gagner de l'argent. Il est un expert dans l'art de manier l'arc, il est sans aucun doute le meilleur archer de son royaume. Paulin accumule les trait détestables (Grincheux, radin, égoïste et peureux) pour se protéger des autres Seigneurs mais il est dans le fond, une bonne personne. Il a sacrifié sa légitimité au trône pour sauver le petit peuple d'une grande menace durant l'aventure du Secret des Rois. 
-                </p>
-                <p>
-                    <img src="Picture/Gaucelin2.png" class="d-block w-100 figure" alt="...">
-                    Gaucelin : 
-                    <br >
-                    Gaucelin dit Loudier. Fils d'un Père inconnu et de Gwendoline la Barjotte. Il est le père de 12 enfants et le mari de Emelotte dit Lolotte.
+                data-content="Popover show on Bottom."><img src="Picture/Baldric2.png" class="d-block w-100 portrait" alt="..."></button>
+    
+            <button type="button" class="btn myPopover"
+                data-toggle="popover"
+                data-placement="bottom" 
+               
+                    title="Sir Paulin dit le Fourbe est le fils de Gislebert et d'Adélaïde de Boleor. Mari de Dame Béatrice et père d'Aliénor.
+                    Paulin est un habile homme d'affaires qui ruse et évite les guerres en marchandant, ce qui lui vaut le surnom de Paulin dit le Fourbe car pour lui, tous les moyens sont bons pour gagner de l'argent. Il est un expert dans l'art de manier l'arc, il est sans aucun doute le meilleur archer de son royaume. Paulin accumule les trait détestables (Grincheux, radin, égoïste et peureux) pour se protéger des autres Seigneurs mais il est dans le fond, une bonne personne. Il a sacrifié sa légitimité au trône pour sauver le petit peuple d'une grande menace durant l'aventure du Secret des Rois."
+               
+                data-content="Popover show on Bottom."><img src="Picture/Sirpaulin2.png" class="d-block w-100 portrait" alt="..."></button>
+    
+            <button type="button" class="btn myPopover"
+                data-toggle="popover"
+                data-placement="bottom" 
+                    
+                    title="Gaucelin dit Loudier. Fils d'un Père inconnu et de Gwendoline la Barjotte. Il est le père de 12 enfants et le mari de Emelotte dit Lolotte.
+                    Gaucelin qu'on appelle souvent Loudier est un paysan du royaume de Sir Paulin. Il devient par la suite l'escuyer du Seigneur et chevalier Baldric qui a vu en lui du courage. Il est un peu simplet de prime abord mais il est à la recherche de savoir et de connaissance. Gaucelin est drôle, fidèle, courageux et combatif."
+                
+                data-content="Popover show on Bottom."><img src="Picture/Gaucelin2.png" class="d-block w-100 portrait" alt="..."></button>
+    
+            <button type="button" class="btn myPopover"
+                data-toggle="popover"
+                data-placement="bottom" 
+               
+                    title="Jean de Karadec. Fils de Ewen et de Guenièvre de Karadec, fils unique. 
+                    Karadec est un mercenaire et ancien chevalier d'ébène, désinvolte qui offrit ses talents de combattant au plus offrant jusqu'au jour où il croisa la route de Paulin, Baldric et Gaucelin qu'il rejoint à la suite dans une aventure épique. Il aime la bière, les jeux et le danger."
+               
+                data-content="Popover show on Bottom."><img src="Picture/Karadec2.png" class="d-block w-100 portrait" alt="..."></button>
+    
+         </div>
 
-                    Gaucelin qu'on appelle souvent "Loudier" est un paysan du royaume de Sir Paulin. Il devient par la suite l'escuyer du Seigneur et chevalier Baldric qui a vu en lui du "courage". Il est un peu simplet de prime abord mais il est à la recherche de savoir et de connaissance. Gaucelin est drôle, fidèle, courageux et combatif.
-                </p>
-                <p>
-                    <img src="Picture/Karadec2.png" class="d-block w-100 figure" alt="...">
-                    Karadec :
-                    <br >
-                    Jean de Karadec. Fils de Ewen et de Guenièvre de Karadec, fils unique. 
-
-                    Karadec est un mercenaire et ancien chevalier d'ébène, désinvolte qui offrit ses talents de combattant au plus offrant jusqu'au jour où il croisa la route de Paulin, Baldric et Gaucelin qu'il rejoint à la suite dans une aventure épique. Il aime la bière, les jeux et le danger. 
-
-                </p>
-            </div>
-        </section>
+         <script>
+            $(function(){
+               $(".myPopover").popover();
+            });
+         </script>   
 
     </main>
 
