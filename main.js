@@ -11,6 +11,3 @@ $(function(){
  });
 
 
- $('#MonCollapse').collapse({
-  show: true
-  })
