@@ -107,6 +107,55 @@ li {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  text-decoration: none;
+  padding: 2%;
+  border-radius: 25rem;
+  display: inline-block;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.margintx {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.paddingtx {
+  /*padding-top: 10%;*/
+  padding-bottom: 10%;
+}
+
+.paddingcard {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.paddingpicture {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.paddingfirstpicture{
+  padding-bottom: 7%;
+}
+
+.paddingsecondpicture{
+  padding-bottom: 35%;
+}
+
+.paddingthirdpicture{
+  padding-bottom: 12%;
+}
+
 /* rectangle */
 
 @keyframes tipsy {
