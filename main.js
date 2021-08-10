@@ -16,3 +16,5 @@ $(function(){
  $(function(){
   $(".myPopover").popover();
 });
+
+    
