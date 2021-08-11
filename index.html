@@ -45,6 +45,14 @@
                 </video>
                 <script>
                     document.getElementById('vid').play();video.muted = true;
+                    function startVideoIfNotStarted () {
+                        $("vid").ready(function () {
+                            window.setTimeout(function(){
+                                videojs("vid").play()
+                            }, 1000);
+                        });
+                    }
+                    $(startVideoIfNotStarted);
                 </script>
             </li>
         </ul>
