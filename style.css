@@ -283,7 +283,7 @@ img {
 
 p , article{
   display:inline-block;
-  margin:3em auto;
+  margin: 1.5rem auto;
   padding:5px 0;
   position:relative;
   overflow:hidden;
@@ -291,16 +291,23 @@ p , article{
 }
 
 .tx {
-  font-size: 100%;
+  font-size: 120%;
   color: white;
   display: grid;
   align-items:center;
-  text-align: center;
+  text-align:justify;
 }
 
 h2 {
   font-weight: bolder;
   text-decoration: underline;
+  display: grid;
+  justify-content: center;
+}
+
+h3 {
+  display: grid;
+  justify-content: center;
 }
 
 .txul {
@@ -348,6 +355,10 @@ li {
   margin: 5px;
 }
 
+.youtube2 {
+  display: grid;
+  justify-content: center;
+}
 
 /* tx histoire */
 
