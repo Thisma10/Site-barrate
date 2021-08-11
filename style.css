@@ -315,7 +315,7 @@ p , article{
 }
 
 .tx {
-  font-size: 120%;
+  font-size: 110%;
   color: white;
   display: grid;
   align-items:center;
@@ -354,7 +354,6 @@ li {
 .marge {
   margin-top: 5%;
   margin-bottom: 5%;
-  
 }
 
 .cadre {
@@ -376,15 +375,15 @@ li {
 }
 
 .btn {
-  margin: 5px;
+  margin: 5%;
+  border: white double;
+  border-radius: 150px;
 }
 
 .youtube2 {
   display: grid;
   justify-content: center;
 }
-
-/* tx histoire */
 
 /* utility */
 
