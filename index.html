@@ -40,20 +40,9 @@
             <li><a href="Histoire.html" class="nav-link">Histoire</a></li>
             <li><a href="galerie.html" class="nav-link">Galerie</a></li>
             <li>
-                <video id="#vid" class="videochevaux" alt="cheveaux qui court dans une prairie" type="video/mp4" muted="true" playinline="true" autoplay="true" loop="true" preload="true" src="video/chevauxsitecourt.mp4">
+                <video class="videochevaux" alt="cheveaux qui court dans une prairie" type="video/mp4" muted="true" playinline="true" autoplay="true" loop="true" preload="true" src="video/chevauxsitecourt.mp4">
                     la video ne peut pas s'afficher
                 </video>
-                <script>
-                    document.getElementById('vid').play();video.muted = true;
-                    function startVideoIfNotStarted () {
-                        $("vid").ready(function () {
-                            window.setTimeout(function(){
-                                videojs("vid").play()
-                            }, 1000);
-                        });
-                    }
-                    $(startVideoIfNotStarted);
-                </script>
             </li>
         </ul>
           
