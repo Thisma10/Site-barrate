@@ -237,7 +237,7 @@ div#conteneur {
 }
 .defile1{
 	display: table;
-	width:1540px; /* Soit 220px * 7 images */
+	width:1540px; /* Soit 220px * 7 images */ 
 	animation: slide-image 20s ease 0s infinite alternate;
 }
 .defile1 .defile2{
@@ -254,9 +254,6 @@ div#conteneur {
 	60%,80%   {margin-left:-660px;}
 	80%,to    {margin-left:-880px;}
 }
-
-
-
 
 /* picture */
 
