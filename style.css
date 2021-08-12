@@ -312,8 +312,8 @@ div#conteneur {
 
 .btn-secondary {
   color: lightgray;
-  background-color: gray;
-  border-color: gray;
+  background-color: rgb(109, 34, 16);
+  border-color: rgb(109, 34, 16);
   text-decoration: none;
   padding: 2%;
   border-radius: 25rem;
