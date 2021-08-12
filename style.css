@@ -108,9 +108,9 @@ li {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  color: lightgray;
+  background-color: rgb(109, 34, 16);
+  border-color: rgb(109, 34, 16);
   text-decoration: none;
   padding: 2%;
   border-radius: 25rem;
@@ -308,6 +308,7 @@ div#conteneur {
 
 .textdeco {
   text-decoration: none;
+  color: rgb(109, 34, 16);
 }
 
 .btn-secondary {
@@ -570,6 +571,7 @@ p {
   --bs-text-opacity: 1;
   color: #6c757d;
 }
+
 .small, small {
   font-size: .875em;
 }
