@@ -738,6 +738,7 @@ button {
   border-radius: 25rem;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btncontact:hover {
