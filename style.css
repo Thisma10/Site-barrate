@@ -711,6 +711,100 @@ button {
   }
 }
 
+/* contact */
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
+
+/* Rubrique */
+
+.txcontact {
+  font-size: 110%;
+  color: white;
+  display: grid;
+  align-items:center;
+  text-align:center;
+  word-spacing: 0.5%;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+
+.text-primary {
+  color: rgb(109, 34, 16);
+}
+
+.lead {
+  font-size: 20px;
+}
+
+
+.btncontact {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: rgb(109, 34, 16);
+  padding: 5%;
+  border-radius: 25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btncontact:hover {
+  background: grey;
+  color: whitesmoke;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+/* Padding */
+.pad { 
+  padding: 30px 0; 
+}
+
+/* ajout */
+
+.box {
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 /* footer */
 
 footer {
