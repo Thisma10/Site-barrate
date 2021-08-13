@@ -713,11 +713,10 @@ button {
 
 /* contact */
 
-#contact-info .box {
-  border-bottom: #444 dotted 1px;
+.centercontact {
+  text-align: center;
+  align-items: center;
 }
-
-/* Rubrique */
 
 .txcontact {
   font-size: 110%;
