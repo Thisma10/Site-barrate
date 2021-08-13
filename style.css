@@ -174,56 +174,6 @@ li {
   padding-bottom: 18%;
 }
 
-/* rectangle */
-
-@keyframes tipsy {
-    0% {
-      transform: translateX(-50%) translateY(-50%) rotate(0deg);
-    }
-    100% {
-      transform: translateX(-50%) translateY(-50%) rotate(360deg);
-    }
-  }
-  
-  .rectangle {
-    color: #fffbf1;
-    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
-    font-size: 170%;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: -3px;
-    margin: 0;
-    position: absolute;
-    top: 10em;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 2;
-  }
-  
-  .rectangle:before,
-  .rectangle:after {
-    content: '';
-    padding: .9em .4em;
-    position: absolute;
-    left: 50%;
-    width: 110%;
-    top: 50%;
-    display: block;
-    border: 5px solid lightgray;
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
-    animation: 10s infinite alternate ease-in-out tipsy;
-  }
-  
-  .rectangle:before {
-    border-color: lightgray lightgray rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-    z-index: -1;
-  }
-  
-  .rectangle:after {
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) lightgray lightgray;
-    /*box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);*/
-  }
-
 /* bande photos */
 
 .defile1,.defile2 { margin:0 ; padding:0 }
@@ -671,6 +621,94 @@ button {
 
 .btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
   margin-left: -1px;
+}
+/* test scroll */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
+
+.scroll-container {
+  height: 100%;
+  min-height: 450px;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.txcadre {
+  font-size: 110%;
+  color: rgb(68, 68, 68);
+  display: grid;
+  align-items:center;
+  text-align:justify;
+  word-spacing: 0.5%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.scroll-container:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.scroll-element,
+.scroll-caption {
+  width: 50%;
+}
+
+.scroll-element {
+  min-height: 300px;
+  height: 100%;
+  background-color: #eaeaea;
+}
+
+.scroll-element {
+  min-height: 300px;
+  height: 100%;
+  background-color: gray;
+}
+
+
+@media screen and (max-width: 650px) {
+  .scroll-container,
+  .scroll-container:nth-of-type(even) {
+    flex-direction: column;
+    align-content: inherit;
+  }
+
+  .scroll-element {
+    height: 100%;
+  }
+
+  .scroll-element,
+  .scroll-caption {
+    width: 100%;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* footer */
