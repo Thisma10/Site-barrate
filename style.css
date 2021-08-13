@@ -290,8 +290,8 @@ p , article{
   align-items:center;
   text-align:justify;
   word-spacing: 0.5%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
 }
 
 h2 {
@@ -324,8 +324,8 @@ li {
 }
 
 .marge {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .cadre {
@@ -642,8 +642,8 @@ button {
   align-items:center;
   text-align:justify;
   word-spacing: 0.5%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
 }
 
 .scroll-container:nth-of-type(even) {
