@@ -337,6 +337,17 @@ li {
 
 /* perso histoire */
 
+.zoom {
+	-webkit-filter: blur(1.5px);
+	filter: blur(1.5px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
 .portrait {
   border-radius: 150px;
   border: white;
@@ -367,15 +378,21 @@ html.sr .widget {
   visibility: hidden;
 }
 
+/* bande infos */
+
+.card {
+  color: black;
+}
+
 /* Gallerie */
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
 }
 .py-5 {
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 div {
@@ -440,13 +457,7 @@ div {
   border-radius: .25rem;
 }
 
-/* bande infos */
 
-.card {
-  color: black;
-}
-
-/* gallerie */
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -622,7 +633,7 @@ button {
 .btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
   margin-left: -1px;
 }
-/* test scroll */
+/* animation scroll */
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
 
