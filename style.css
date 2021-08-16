@@ -549,9 +549,9 @@ p {
   color: #6c757d;
   border-color: #6c757d;
 }
-
+/*
 .colorgray {
-  color: lightgray;
+  color: white;
   background-color: rgb(109, 34, 16);
   border-color: rgb(109, 34, 16);
   text-decoration: none;
@@ -561,7 +561,8 @@ p {
   padding-left: 10%;
   padding-right: 10%;
   text-align: center;
-}
+  border-radius: 25rem;
+}*/
 
 .btn {
   display: inline-block;
