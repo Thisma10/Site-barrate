@@ -16,6 +16,11 @@
     .scroll-caption {
       width: 100%;
     }
+
+    .btn {
+      padding: .50rem .50rem;
+      font-size: 0.5rem;
+    }
     
   }
 
@@ -30,6 +35,11 @@
     .scroll-element,
     .scroll-caption {
       width: 100%;
+    }
+
+    .btn {
+      padding: .50rem .50rem;
+      font-size: 0.75rem;
     }
     
   }
@@ -46,6 +56,12 @@
   .scroll-caption {
     width: 100%;
   }
+
+  .btn {
+    padding: .50rem .50rem;
+    font-size: 0.5rem;
+  }
+
   }
 
   /* Landscape */
@@ -60,4 +76,10 @@
   .scroll-caption {
     width: 100%;
   }
+
+  .btn {
+    padding: .50rem .50rem;
+    font-size: 0.5rem;
+  }
+
   }
