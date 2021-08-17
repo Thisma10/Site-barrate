@@ -6,24 +6,58 @@
 
   /* Tablet */
   @media(min-width: 501px) and (max-width: 768px) { /* Targets between 501 and 768 */
+
+    .marge {
+      margin-top: 4%;
+      margin-bottom: 3%;
+    }
+  
+    .scroll-element,
+    .scroll-caption {
+      width: 100%;
+    }
     
   }
 
   /* Normal */
   @media(min-width: 769px) and (max-width: 1200px) {
+
+    .marge {
+      margin-top: 4%;
+      margin-bottom: 3%;
+    }
+  
+    .scroll-element,
+    .scroll-caption {
+      width: 100%;
+    }
     
   }
 
   /* Widescreen */
   @media(min-width: 1201px) {
     
-    .marge {
-      margin-top: 4%;
-      margin-bottom: 3%;
-    }
+  .marge {
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+
+  .scroll-element,
+  .scroll-caption {
+    width: 100%;
+  }
   }
 
   /* Landscape */
   @media(max-height: 500px) {
-    
+
+  .marge {
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+
+  .scroll-element,
+  .scroll-caption {
+    width: 100%;
+  }
   }

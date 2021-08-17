@@ -333,7 +333,7 @@ li {
   background-color: lightgray;
   padding-top: 5%;
   padding-bottom: 5%;
-  width: 107%;
+  width: 100%;
 }
 
 /* perso histoire */
@@ -616,7 +616,7 @@ button {
 
 .scroll-container {
   height: 100%;
-  min-height: 450px;
+  min-height: 300px;
   padding: 1rem 0.5rem;
   display: flex;
   align-items: center;
@@ -647,7 +647,6 @@ button {
 .scroll-element {
   min-height: 300px;
   height: 100%;
-  background-color: #eaeaea;
 }
 
 .scroll-element2 {
