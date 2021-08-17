@@ -232,11 +232,6 @@ div#conteneur {
   min-width: 60%;
 }
 
-.picturehover:hover {
-  max-width: 105%;
-  min-width: 65%;
-}
-
 /* texte */
 
 .margin {
@@ -610,6 +605,7 @@ button {
 .btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
   margin-left: -1px;
 }
+
 /* animation scroll */
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
