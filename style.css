@@ -625,7 +625,7 @@ button {
 
 .txcadre {
   font-size: 110%;
-  color: rgb(68, 68, 68);
+  color: white;
   display: grid;
   align-items:center;
   text-align:justify;
