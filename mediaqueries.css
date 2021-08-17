@@ -16,10 +16,11 @@
 
   /* Widescreen */
   @media(min-width: 1201px) {
-    /*#carouselExampleInterval {
-      max-width: 50%;
-      max-height: 50%;
-    }*/
+    
+    .marge {
+      margin-top: 4%;
+      margin-bottom: 3%;
+    }
   }
 
   /* Landscape */
