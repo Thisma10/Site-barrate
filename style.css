@@ -320,6 +320,13 @@ li {
   width: 100%;
 }
 
+.cadrecontact {
+  width: 100%;
+  background-color: lightgray;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 /* perso histoire */
 
 .zoom {
