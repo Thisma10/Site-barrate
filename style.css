@@ -693,6 +693,8 @@ button {
 /* contact */
 
 .centercontact {
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
   align-items: center;
 }
@@ -708,9 +710,13 @@ button {
   padding-right: 1.8rem;
 }
 
+.paddingtop {
+  padding-top: 5%;
+}
+
 .btncontact {
   display: inline-block;
-  font-size: 18px;
+  font-size: 150%;
   color: white;
   background: rgb(109, 34, 16);
   padding: 5%;
@@ -718,6 +724,7 @@ button {
   border: none;
   cursor: pointer;
   text-decoration: none;
+  word-spacing: 0.5%;
 }
 
 .btncontact:hover {
