@@ -415,6 +415,18 @@ div {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.carde {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   /*min-height: 32em;*/
   height: 35em;
   /*max-height: 50em;*/
@@ -468,6 +480,14 @@ div {
 
 .d-flex {
   display: flex;
+}
+
+.paddingvideo {
+  padding-top: 15rem;
+}
+
+.paddingpicture {
+  padding-top: 4rem;
 }
 
 .btn-group, .btn-group-vertical {
@@ -727,10 +747,6 @@ footer {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.d-flex {
-  display: flex;
 }
 
 .navfooter {
