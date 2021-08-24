@@ -27,13 +27,13 @@ body {
     border-radius: 150px;
     border: white;
     z-index: 2;
-    margin-left: 15%;  
+    /*margin-left: 15%; */ 
 }
 
 .logofooter {
   width: 70%;
   border-radius: 150px;
-  margin-left: 5%;
+  /*margin-left: 5%;*/
 }
 
 .logohover:hover {
@@ -407,7 +407,7 @@ div {
 }
 
 .shadow-sm {
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
 .card {
