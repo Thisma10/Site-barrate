@@ -482,14 +482,6 @@ div {
   display: flex;
 }
 
-.paddingvideo {
-  padding-top: 15rem;
-}
-
-.paddingpicture {
-  padding-top: 4rem;
-}
-
 .btn-group, .btn-group-vertical {
   position: relative;
   display: inline-flex;
