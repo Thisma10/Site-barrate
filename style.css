@@ -415,8 +415,9 @@ div {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  min-height: 32em;
-  max-height: 50em;
+  /*min-height: 32em;*/
+  height: 35em;
+  /*max-height: 50em;*/
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
