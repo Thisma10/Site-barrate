@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 });
 
 $(function () {
-    $(".myPopover").popover();
+    $(".myPopover").popover({ trigger: "hover" });
 });
 
 
