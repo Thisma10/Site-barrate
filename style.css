@@ -234,11 +234,6 @@ div#conteneur {
   color: black;
 }
 
-.textdeco {
-  text-decoration: none;
-  color: rgb(109, 34, 16);
-}
-
 .btn-secondary {
   color: lightgray;
   background-color: rgb(109, 34, 16);
@@ -339,10 +334,6 @@ li {
   border: white;
 }
 
-.personnage {
-  color: white;
-}
-
 .btnhistoire {
   /*margin: 5%;*/
   margin-bottom: 4%;
@@ -354,16 +345,6 @@ li {
 .youtube2 {
   display: grid;
   justify-content: center;
-}
-
-/* utility */
-
-html.sr .load-hidden {
-  visibility: hidden;
-}
-
-html.sr .widget {
-  visibility: hidden;
 }
 
 /* bande infos */
@@ -378,6 +359,7 @@ html.sr .widget {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
 }
+
 .py-5 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -596,7 +578,6 @@ button {
   height: 100%;
 
 }
-
 
 @media screen and (max-width: 650px) {
   .scroll-container,
