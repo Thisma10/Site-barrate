@@ -296,12 +296,6 @@ li {
   justify-content: center;
 }
 
-/* bande infos */
-
-.card {
-  color: black;
-}
-
 /* Gallerie */
 
 .bg-light {
@@ -338,12 +332,10 @@ div {
 }
 
 .card {
+  color: black;
   position: relative;
   display: grid;
   place-items: center;
-  /*display: flex;
-  flex-direction: column;
-  min-width: 0;*/
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -354,6 +346,16 @@ div {
 
 .card > img {
   width: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 25rem;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 25rem;
 }
 
 .bd-placeholder-img {
