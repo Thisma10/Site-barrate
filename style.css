@@ -499,7 +499,6 @@ button {
 
 .scroll-container {
   height: 100%;
-  min-height: 300px;
   padding: 1rem 0.5rem;
   display: flex;
   align-items: center;
@@ -527,7 +526,6 @@ button {
 }
 
 .scroll-element {
-  min-height: 300px;
   height: 100%;
 }
 
