@@ -44,13 +44,12 @@ body {
 
 header {
   color: white;
-  font-size: 100%;
   background-color: black;
   width: 100%;
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: 150%;
+  font-size: 1.5em;
   -webkit-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
   -moz-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
   box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
@@ -206,7 +205,7 @@ p , article{
 }
 
 .tx {
-  font-size: 110%;
+  font-size: 1em;
   color: white;
   display: grid;
   align-items:center;
@@ -231,7 +230,7 @@ h3 {
 .txul {
   display: grid;
   align-items:center;
-  font-size: 100%;
+  font-size: 1em;
   color: black;
   text-decoration: none;
 }
@@ -505,7 +504,7 @@ button {
 }
 
 .txcadre {
-  font-size: 110%;
+  font-size: 1em;
   color: white;
   display: grid;
   align-items:center;
@@ -582,7 +581,7 @@ button {
 }
 
 .txcontact {
-  font-size: 110%;
+  font-size: 1em;
   color: white;
   display: grid;
   align-items:center;
@@ -598,7 +597,7 @@ button {
 
 .btncontact {
   display: inline-block;
-  font-size: 110%;
+  font-size: 1em;
   color: white;
   background: rgb(109, 34, 16);
   padding: 5%;
@@ -619,7 +618,7 @@ button {
 
 footer {
   color: white;
-  font-size: 100%;
+  font-size: 1em;
   width: 100%;
   display: flex;
   justify-content: space-around;
